@@ -7,31 +7,60 @@
     width: 100%;
     height: 100vh;
     background: cornflowerblue;
+    position: relative;
 }
 .menu{
     width: 100%;
     height: 50px;
-    background: bisque;
+    background: blue;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .block2{
     width: 100%;
     height: 500px;
-    background: chocolate;
+    background: yellow;
 }
 .block3{
     width: 100%;
     height: 150px;
-    background: yellowgreen;
+    background: black;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    column-gap: 20px;
+    position: relative;
 }
 .left__menu{
     width: 50px;
     height: 30px;
-    background: silver;
+    background: white;
+    margin-left:30px;
 }
 .right{
-    width: 50px;
+    width: 150px;
     height: 30px;
-    background: cyan;
+    background: darkred;
+    margin-right: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
  }
-/*<i class="fa-solid fa-magnifying-glass"></i>*/
+.icon{
+    height: 20px;
+    width: 40px;
+    background: black;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background: darkred;
+    position: relative;
+    top: -100px;
+}
+.fa-magnifying-glass{
+    font-size: 25px;
+    background: white;
+}
